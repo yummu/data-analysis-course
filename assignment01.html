@@ -2203,15 +2203,39 @@ vertical-align: -.125em;
 
 </head>
 
-<body class="fullcontent quarto-light">
+<body class="quarto-light">
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#阶段一数据可行性检查" id="toc-阶段一数据可行性检查" class="nav-link active" data-scroll-target="#阶段一数据可行性检查">阶段一：数据可行性检查</a>
+  <ul class="collapse">
+  <li><a href="#一公共管理问题与数据来源" id="toc-一公共管理问题与数据来源" class="nav-link" data-scroll-target="#一公共管理问题与数据来源">一、公共管理问题与数据来源</a></li>
+  <li><a href="#研究问题" id="toc-研究问题" class="nav-link" data-scroll-target="#研究问题">1.研究问题</a></li>
+  <li><a href="#数据来源-数据可行卡" id="toc-数据来源-数据可行卡" class="nav-link" data-scroll-target="#数据来源-数据可行卡"><strong>2.数据来源-数据可行卡</strong></a></li>
+  </ul></li>
+  <li><a href="#阶段二完整数据项目" id="toc-阶段二完整数据项目" class="nav-link" data-scroll-target="#阶段二完整数据项目">阶段二：完整数据项目</a>
+  <ul class="collapse">
+  <li><a href="#二-文献分析思路" id="toc-二-文献分析思路" class="nav-link" data-scroll-target="#二-文献分析思路">二、 文献分析思路</a></li>
+  <li><a href="#三清理前数据审计" id="toc-三清理前数据审计" class="nav-link" data-scroll-target="#三清理前数据审计">三、清理前数据审计</a></li>
+  <li><a href="#四-数据清理规则与代码" id="toc-四-数据清理规则与代码" class="nav-link" data-scroll-target="#四-数据清理规则与代码">四、 数据清理规则与代码</a></li>
+  <li><a href="#五-程序化质量验证" id="toc-五-程序化质量验证" class="nav-link" data-scroll-target="#五-程序化质量验证">五、 程序化质量验证</a></li>
+  <li><a href="#六清理前后比较" id="toc-六清理前后比较" class="nav-link" data-scroll-target="#六清理前后比较">六、清理前后比较</a></li>
+  <li><a href="#七-可视化结果与解释" id="toc-七-可视化结果与解释" class="nav-link" data-scroll-target="#七-可视化结果与解释">七、 可视化结果与解释</a></li>
+  <li><a href="#八数据局限和后续机器学习适用性" id="toc-八数据局限和后续机器学习适用性" class="nav-link" data-scroll-target="#八数据局限和后续机器学习适用性">八、数据局限和后续机器学习适用性</a></li>
+  <li><a href="#九ai辅助使用说明" id="toc-九ai辅助使用说明" class="nav-link" data-scroll-target="#九ai辅助使用说明">九、AI辅助使用说明</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">公共大数据分析课程作业一</h1>
+<div class="quarto-title-block"><div><h1 class="title">公共大数据分析课程作业一</h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button">View Source</a></li></ul></div></div>
 </div>
 
 
@@ -2236,17 +2260,20 @@ vertical-align: -.125em;
 
 <section id="阶段一数据可行性检查" class="level1">
 <h1>阶段一：数据可行性检查</h1>
+<section id="一公共管理问题与数据来源" class="level2">
+<h2 class="anchored" data-anchor-id="一公共管理问题与数据来源">一、公共管理问题与数据来源</h2>
+</section>
 <section id="研究问题" class="level2">
-<h2 class="anchored" data-anchor-id="研究问题"><strong>4.1研究问题</strong></h2>
+<h2 class="anchored" data-anchor-id="研究问题">1.研究问题</h2>
 <p>利用深圳市10个区2021年1月至2026年9月的残疾人两项补贴区-月汇总数据，描述并比较残疾人福利补贴的覆盖规模、领取结构与人均待遇水平这一基层公共服务供给现象，并分析其在各区之间、69个月期间以及不同年龄、性别与残疾类型群体中的差异。</p>
 </section>
-<section id="数据可行卡" class="level2">
-<h2 class="anchored" data-anchor-id="数据可行卡"><strong>4.2数据可行卡</strong></h2>
+<section id="数据来源-数据可行卡" class="level2">
+<h2 class="anchored" data-anchor-id="数据来源-数据可行卡"><strong>2.数据来源-数据可行卡</strong></h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 26%">
 <col style="width: 33%">
-<col style="width: 40%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -2313,10 +2340,13 @@ vertical-align: -.125em;
 </tr>
 </tbody>
 </table>
-<p><strong>4.3 必须提供的实际证据</strong></p>
+<p><strong>3 必须提供的实际证据</strong></p>
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stderr">
 <pre><code>
 Attaching package: &#39;dplyr&#39;</code></pre>
@@ -2331,9 +2361,12 @@ Attaching package: &#39;dplyr&#39;</code></pre>
 
     intersect, setdiff, setequal, union</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(scales)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stderr">
 <pre><code>
 Attaching package: &#39;scales&#39;</code></pre>
@@ -2343,7 +2376,10 @@ Attaching package: &#39;scales&#39;</code></pre>
 
     col_factor</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>raw_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;data/raw/深圳市民政局-深圳市残疾人两项补贴月报表_2920000803597.csv&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stderr">
 <pre><code>Rows: 690 Columns: 21</code></pre>
 </div>
@@ -2356,11 +2392,17 @@ dbl (19): 合计人数（人）, 领取护理补贴人数（人）, 序号, 仅�
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dim</span>(raw_data)      <span class="co"># 行数×列数</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 690  21</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(raw_data)  <span class="co"># 每列类型与样例</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 690
 Columns: 21
@@ -2386,7 +2428,10 @@ $ `发放资金合计（元）`                       &lt;dbl&gt; 4513680, 59190
 $ `护理补贴对象一户多残（人）`               &lt;dbl&gt; 122, 194, 116, 15, 9, 85, 1…
 $ `性别男（人）`                             &lt;dbl&gt; 5546, 7162, 5165, 639, 394,…</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(raw_data)     <span class="co"># 前6行实际内容</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 21
   地区     `合计人数（人）` 领取护理补贴人数（人）…¹…  序号 仅领取护理补贴人数（人）…²…
@@ -2410,8 +2455,8 @@ $ `性别男（人）`                             &lt;dbl&gt; 5546, 7162, 5165,
 </section>
 <section id="阶段二完整数据项目" class="level1">
 <h1>阶段二：完整数据项目</h1>
-<section id="问题文献与数据说明" class="level2">
-<h2 class="anchored" data-anchor-id="问题文献与数据说明"><strong>5.1 问题、文献与数据说明</strong></h2>
+<section id="二-文献分析思路" class="level2">
+<h2 class="anchored" data-anchor-id="二-文献分析思路">二、 文献分析思路</h2>
 <p>1.本研究围绕”深圳市残疾人两项补贴的覆盖规模、领取结构与人均待遇在地区、时期与群体间呈现怎样的差异”这一公共管理问题展开。两项补贴是国家层面第一项残疾人专项福利制度，事关兜底保障的公平与效率。</p>
 <p>2.问题的公共价值。残疾人是需要格外关心的困难群体，补贴资金来源于财政、面向基本民生。厘清补贴在区域间、群体间的分布是否均衡，能够揭示公共资源是否精准惠及最需要的人群，对优化兜底保障、推进共同富裕具有直接的政策含义。</p>
 <p>3.相关文献与类似方法。既有研究以深圳市为例，利用两项补贴的行政发放记录与家庭收支调查数据，评估政策的瞄准偏误，发现生活补贴漏保、护理补贴误保较为普遍，并指出类型化瞄准未能充分对应真实照护需求¹。该研究证明，借助深圳本地的两项补贴行政数据，可以刻画补贴的覆盖与结构并支撑公共治理判断；本研究沿用同一城市、同一政策的公开汇总数据，从规模—结构—区际差异三个维度做描述性分析，与之形成方法上的呼应。</p>
@@ -2419,9 +2464,11 @@ $ `性别男（人）`                             &lt;dbl&gt; 5546, 7162, 5165,
 <p>5.数据为何能支撑该问题。数据包含合计人数、发放资金、护理与生活补贴领取人数、性别与年龄结构、重点保障对象类别等字段，足以直接回答”规模如何变化、结构怎样、区际差异多大”三类描述性问题；且为区级聚合统计，不含个人敏感信息，可公开使用。</p>
 <p>6.数据不能回答什么。本数据为区—月汇总，无法识别个体是否应保未保或错保（即瞄准偏误的具体个体机制）；缺少政策调整、人口结构、财政投入等外生变量，不能解释差异的成因，所得结论仅作描述性与探索性判断，不构成政策因果效应。</p>
 </section>
-<section id="清理前数据审计" class="level2">
-<h2 class="anchored" data-anchor-id="清理前数据审计">5.2清理前数据审计</h2>
+<section id="三清理前数据审计" class="level2">
+<h2 class="anchored" data-anchor-id="三清理前数据审计">三、清理前数据审计</h2>
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#  5.2 清理前数据审计（基于原始 raw_data，未做任何清理） </span></span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr); <span class="fu">library</span>(dplyr); <span class="fu">library</span>(tidyr); <span class="fu">library</span>(ggplot2)</span>
@@ -2429,43 +2476,65 @@ $ `性别男（人）`                             &lt;dbl&gt; 5546, 7162, 5165,
 <span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="co"># 1) 行数与变量数</span></span>
 <span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;【1】行数 × 列数：</span><span class="sc">\n</span><span class="st">&quot;</span>); <span class="fu">print</span>(<span class="fu">dim</span>(raw_data))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>【1】行数 × 列数：</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 690  21</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2) 主键唯一性：无独立主键，候选键为「地区 + 月份」</span></span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【2】候选主键 地区+月份 重复数（期望 0）：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 【2】候选主键 地区+月份 重复数（期望 0）：</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">sum</span>(<span class="fu">duplicated</span>(raw_data[<span class="fu">c</span>(<span class="st">&quot;地区&quot;</span>, <span class="st">&quot;月份&quot;</span>)])))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;序号 全表重复数（仅区内排序号，非全表唯一，记录下来）：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>序号 全表重复数（仅区内排序号，非全表唯一，记录下来）：</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">sum</span>(<span class="fu">duplicated</span>(raw_data[[<span class="st">&quot;序号&quot;</span>]])))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 670</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 3) 变量类型</span></span>
 <span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【3】各列类型：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 【3】各列类型：</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">table</span>(<span class="fu">vapply</span>(raw_data, <span class="cf">function</span>(x) <span class="fu">class</span>(x)[<span class="dv">1</span>], <span class="fu">character</span>(<span class="dv">1</span>))))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 character   numeric 
         2        19 </code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(raw_data)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 690
 Columns: 21
@@ -2491,18 +2560,24 @@ $ `发放资金合计（元）`                       &lt;dbl&gt; 4513680, 59190
 $ `护理补贴对象一户多残（人）`               &lt;dbl&gt; 122, 194, 116, 15, 9, 85, 1…
 $ `性别男（人）`                             &lt;dbl&gt; 5546, 7162, 5165, 639, 394,…</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 4) 各变量缺失数量与比例（真缺失 NA）</span></span>
 <span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【4】缺失统计：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 【4】缺失统计：</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>miss <span class="ot">&lt;-</span> raw_data <span class="sc">%&gt;%</span></span>
 <span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="fu">everything</span>(), <span class="sc">~</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(.x)))) <span class="sc">%&gt;%</span></span>
 <span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(<span class="fu">everything</span>(), <span class="at">names_to =</span> <span class="st">&quot;变量&quot;</span>, <span class="at">values_to =</span> <span class="st">&quot;缺失数&quot;</span>) <span class="sc">%&gt;%</span></span>
 <span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(缺失比例 <span class="ot">=</span> <span class="fu">round</span>(缺失数 <span class="sc">/</span> <span class="fu">nrow</span>(raw_data), <span class="dv">4</span>)) <span class="sc">%&gt;%</span></span>
 <span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(缺失数))</span>
 <span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(miss, <span class="at">n =</span> <span class="cn">Inf</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 21 × 3
    变量                                       缺失数 缺失比例
@@ -2529,8 +2604,11 @@ $ `性别男（人）`                             &lt;dbl&gt; 5546, 7162, 5165,
 20 护理补贴对象一户多残（人）                      0        0
 21 性别男（人）                                    0        0</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 5) 完全重复记录</span></span>
 <span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【5】完全重复行数（期望 0）：</span><span class="sc">\n</span><span class="st">&quot;</span>); <span class="fu">print</span>(<span class="fu">sum</span>(<span class="fu">duplicated</span>(raw_data)))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 【5】完全重复行数（期望 0）：</code></pre>
@@ -2538,59 +2616,85 @@ $ `性别男（人）`                             &lt;dbl&gt; 5546, 7162, 5165,
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 6) 日期范围与连续性（月份为 YYYYMM 数值）</span></span>
 <span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【6】月份范围与连续性：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 【6】月份范围与连续性：</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb43"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>dates <span class="ot">&lt;-</span> <span class="fu">as.Date</span>(<span class="fu">paste0</span>(raw_data[[<span class="st">&quot;月份&quot;</span>]], <span class="st">&quot;01&quot;</span>), <span class="at">format =</span> <span class="st">&quot;%Y%m%d&quot;</span>)</span>
 <span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">range</span>(dates)); <span class="fu">cat</span>(<span class="st">&quot;不同月份数：&quot;</span>, <span class="fu">length</span>(<span class="fu">unique</span>(dates)), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] &quot;2021-01-01&quot; &quot;2026-09-01&quot;</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>不同月份数： 69 </code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb46"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>all_months <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="fu">min</span>(dates), <span class="fu">max</span>(dates), <span class="at">by =</span> <span class="st">&quot;month&quot;</span>)</span>
 <span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>missing_months <span class="ot">&lt;-</span> <span class="fu">setdiff</span>(<span class="fu">format</span>(all_months, <span class="st">&quot;%Y%m&quot;</span>),</span>
 <span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>                          <span class="fu">unique</span>(<span class="fu">as.character</span>(raw_data[[<span class="st">&quot;月份&quot;</span>]])))</span>
 <span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;缺失的月份（应为空字符）：&quot;</span>, <span class="fu">paste</span>(missing_months, <span class="at">collapse =</span> <span class="st">&quot; &quot;</span>), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>缺失的月份（应为空字符）：  </code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb48"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>month_rows <span class="ot">&lt;-</span> raw_data <span class="sc">%&gt;%</span> dplyr<span class="sc">::</span><span class="fu">count</span>(月份, <span class="at">name =</span> <span class="st">&quot;行数&quot;</span>)</span>
 <span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;每期(月)行数范围：&quot;</span>, <span class="fu">range</span>(month_rows<span class="sc">$</span>行数), <span class="st">&quot;（应恒为 10）</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>每期(月)行数范围： 10 10 （应恒为 10）</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb50"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;是否存在非 10 行的月份：&quot;</span>, <span class="fu">any</span>(month_rows<span class="sc">$</span>行数 <span class="sc">!=</span> <span class="dv">10</span>), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>是否存在非 10 行的月份： FALSE </code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 7) 异常编码扫描：非数值占位符（如 &quot;-&quot; 伪缺失）</span></span>
 <span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【7】异常编码扫描（&#39;-&#39; 等伪缺失）：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 【7】异常编码扫描（&#39;-&#39; 等伪缺失）：</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb54"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>pseudo <span class="ot">&lt;-</span> raw_data <span class="sc">%&gt;%</span></span>
 <span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="fu">where</span>(is.character), <span class="sc">~</span> <span class="fu">sum</span>(.x <span class="sc">==</span> <span class="st">&quot;-&quot;</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))) <span class="sc">%&gt;%</span></span>
 <span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(<span class="fu">everything</span>(), <span class="at">names_to =</span> <span class="st">&quot;变量&quot;</span>, <span class="at">values_to =</span> <span class="st">&quot;减号个数&quot;</span>) <span class="sc">%&gt;%</span></span>
 <span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(减号个数 <span class="sc">&gt;</span> <span class="dv">0</span>)</span>
 <span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(pseudo, <span class="at">n =</span> <span class="cn">Inf</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 1 × 2
   变量                                   减号个数
   &lt;chr&gt;                                     &lt;int&gt;
 1 生活补贴对象支出型困难家庭残疾人（人）        3</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb56"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 8) 列间加总关系一致性（仅记录不一致行数，不等于错误，疑为统计口径差异）</span></span>
 <span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【8】加总关系一致性（仅记录不一致行数）：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 【8】加总关系一致性（仅记录不一致行数）：</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb58"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>n_total <span class="ot">&lt;-</span> <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(raw_data[[<span class="st">&quot;合计人数（人）&quot;</span>]]))</span>
 <span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>chk_gender <span class="ot">&lt;-</span> <span class="fu">sum</span>(<span class="fu">abs</span>(<span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(raw_data[[<span class="st">&quot;性别男（人）&quot;</span>]])) <span class="sc">+</span></span>
 <span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a>                        <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(raw_data[[<span class="st">&quot;性别女（人）&quot;</span>]])) <span class="sc">-</span> n_total) <span class="sc">&gt;</span> <span class="dv">0</span>,</span>
@@ -2604,22 +2708,31 @@ $ `性别男（人）`                             &lt;dbl&gt; 5546, 7162, 5165,
 <span id="cb58-11"><a href="#cb58-11" aria-hidden="true" tabindex="-1"></a>                     <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(raw_data[[<span class="st">&quot;年龄60岁以上（人）&quot;</span>]])) <span class="sc">-</span> n_total) <span class="sc">&gt;</span> <span class="dv">0</span>,</span>
 <span id="cb58-12"><a href="#cb58-12" aria-hidden="true" tabindex="-1"></a>               <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
 <span id="cb58-13"><a href="#cb58-13" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;男+女 ≠ 合计 的行数：&quot;</span>, chk_gender, <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>男+女 ≠ 合计 的行数： 688 </code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb60"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;仅护理+仅生活+同时两贴 ≠ 合计 的行数：&quot;</span>, chk_split, <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>仅护理+仅生活+同时两贴 ≠ 合计 的行数： 690 </code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb62"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;三个年龄段之和 ≠ 合计 的行数：&quot;</span>, chk_age, <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>三个年龄段之和 ≠ 合计 的行数： 16 </code></pre>
 </div>
 </div>
 </section>
-<section id="有理由的数据清理" class="level2">
-<h2 class="anchored" data-anchor-id="有理由的数据清理">5.3 有理由的数据清理</h2>
+<section id="四-数据清理规则与代码" class="level2">
+<h2 class="anchored" data-anchor-id="四-数据清理规则与代码">四、 数据清理规则与代码</h2>
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb64"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ========== 5.3 有理由的数据清理 ==========</span></span>
 <span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a><span class="co"># 仅做审计证实确有必要的清理，不做无谓 Winsorize/插值/连接/长宽转换</span></span>
 <span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -2639,15 +2752,19 @@ $ `性别男（人）`                             &lt;dbl&gt; 5546, 7162, 5165,
 <span id="cb64-17"><a href="#cb64-17" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;【清理1·验证】日期范围：&quot;</span>,</span>
 <span id="cb64-18"><a href="#cb64-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">min</span>(data<span class="sc">$</span>日期), <span class="st">&quot;至&quot;</span>, <span class="fu">max</span>(data<span class="sc">$</span>日期),</span>
 <span id="cb64-19"><a href="#cb64-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;；缺失_支出困难行数：&quot;</span>, <span class="fu">sum</span>(data<span class="sc">$</span>缺失_支出困难), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>【清理1·验证】日期范围： 18628 至 20697 ；缺失_支出困难行数： 3 </code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb66"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="co"># --- 清理2：缺失识别与标记（不删除、不插补）---</span></span>
 <span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a>miss_clean <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span></span>
 <span id="cb66-3"><a href="#cb66-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="fu">where</span>(is.numeric), <span class="sc">~</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(.x)))) <span class="sc">%&gt;%</span></span>
 <span id="cb66-4"><a href="#cb66-4" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(<span class="fu">everything</span>(), <span class="at">names_to =</span> <span class="st">&quot;变量&quot;</span>, <span class="at">values_to =</span> <span class="st">&quot;缺失数&quot;</span>) <span class="sc">%&gt;%</span></span>
 <span id="cb66-5"><a href="#cb66-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(缺失数 <span class="sc">&gt;</span> <span class="dv">0</span>)</span>
 <span id="cb66-6"><a href="#cb66-6" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【清理2·验证】仍有缺失的数值列：</span><span class="sc">\n</span><span class="st">&quot;</span>); <span class="fu">print</span>(miss_clean, <span class="at">n =</span> <span class="cn">Inf</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 【清理2·验证】仍有缺失的数值列：</code></pre>
@@ -2658,10 +2775,15 @@ $ `性别男（人）`                             &lt;dbl&gt; 5546, 7162, 5165,
   &lt;chr&gt;                 &lt;int&gt;
 1 支出型困难家庭残疾人      3</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb69"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;是否删除任何行：否，行数仍为&quot;</span>, <span class="fu">nrow</span>(data), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>是否删除任何行：否，行数仍为 690 </code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb71"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a><span class="co"># --- 清理3：异常值识别与标记（人均月补贴极端高值）---</span></span>
 <span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span></span>
 <span id="cb71-3"><a href="#cb71-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
@@ -2671,10 +2793,13 @@ $ `性别男（人）`                             &lt;dbl&gt; 5546, 7162, 5165,
 <span id="cb71-7"><a href="#cb71-7" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【清理3·验证】人均月补贴中位数：&quot;</span>,</span>
 <span id="cb71-8"><a href="#cb71-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">round</span>(<span class="fu">median</span>(data<span class="sc">$</span>人均月补贴, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="dv">1</span>),</span>
 <span id="cb71-9"><a href="#cb71-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;；高人均行数：&quot;</span>, <span class="fu">sum</span>(data<span class="sc">$</span>是否高人均, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 【清理3·验证】人均月补贴中位数： 455.1 ；高人均行数： 4 </code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb73"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a><span class="co"># --- 清理4：构造公共管理指标（覆盖率/占比/份额/环比）---</span></span>
 <span id="cb73-2"><a href="#cb73-2" aria-hidden="true" tabindex="-1"></a>city_total <span class="ot">&lt;-</span> <span class="fu">sum</span>(data<span class="sc">$</span><span class="st">`</span><span class="at">发放资金合计（元）</span><span class="st">`</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
 <span id="cb73-3"><a href="#cb73-3" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span></span>
@@ -2693,11 +2818,15 @@ $ `性别男（人）`                             &lt;dbl&gt; 5546, 7162, 5165,
 <span id="cb73-16"><a href="#cb73-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
 <span id="cb73-17"><a href="#cb73-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb73-18"><a href="#cb73-18" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【清理4·验证】新增指标列：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 【清理4·验证】新增指标列：</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb75"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(data)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 690
 Columns: 33
@@ -2737,9 +2866,11 @@ $ 环比增长率                                 &lt;dbl&gt; NA, -0.064887365, 
 </div>
 </div>
 </section>
-<section id="程序化质量验证" class="level2">
-<h2 class="anchored" data-anchor-id="程序化质量验证">5.4 程序化质量验证</h2>
+<section id="五-程序化质量验证" class="level2">
+<h2 class="anchored" data-anchor-id="五-程序化质量验证">五、 程序化质量验证</h2>
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb77"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ========== 5.4 程序化质量验证 ==========</span></span>
 <span id="cb77-2"><a href="#cb77-2" aria-hidden="true" tabindex="-1"></a><span class="co"># 用 stopifnot() 固化核心规则；若报错应查数据</span></span>
 <span id="cb77-3"><a href="#cb77-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -2767,19 +2898,20 @@ $ 环比增长率                                 &lt;dbl&gt; NA, -0.064887365, 
 <span id="cb77-25"><a href="#cb77-25" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb77-26"><a href="#cb77-26" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;✅ 5.4 程序化验证全部通过：&quot;</span>,</span>
 <span id="cb77-27"><a href="#cb77-27" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;候选主键唯一、计数非负、比率∈[0,1]、缺失标记=3、月份连续。</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>✅ 5.4 程序化验证全部通过： 候选主键唯一、计数非负、比率∈[0,1]、缺失标记=3、月份连续。</code></pre>
 </div>
 </div>
 </section>
-<section id="清理前后比较" class="level2">
-<h2 class="anchored" data-anchor-id="清理前后比较">5.5 清理前后比较</h2>
+<section id="六清理前后比较" class="level2">
+<h2 class="anchored" data-anchor-id="六清理前后比较">六、清理前后比较</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 21%">
-<col style="width: 21%">
-<col style="width: 21%">
-<col style="width: 35%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -2828,8 +2960,12 @@ $ 环比增长率                                 &lt;dbl&gt; NA, -0.064887365, 
 </tr>
 </tbody>
 </table>
-<p>5.6</p>
+</section>
+<section id="七-可视化结果与解释" class="level2">
+<h2 class="anchored" data-anchor-id="七-可视化结果与解释">七、 可视化结果与解释</h2>
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb79"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb79-1"><a href="#cb79-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 图1：覆盖规模与人均待遇的月度趋势（双面板）+ 期末数值标签</span></span>
 <span id="cb79-2"><a href="#cb79-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
 <span id="cb79-3"><a href="#cb79-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -2862,6 +2998,7 @@ $ 环比增长率                                 &lt;dbl&gt; NA, -0.064887365, 
 <span id="cb79-30"><a href="#cb79-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">&quot;数据来源：深圳市政府数据开放平台·残疾人两项补贴月报表（2021-01—2026-09）&quot;</span></span>
 <span id="cb79-31"><a href="#cb79-31" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
 <span id="cb79-32"><a href="#cb79-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -2872,11 +3009,13 @@ $ 环比增长率                                 &lt;dbl&gt; NA, -0.064887365, 
 </div>
 <p><strong>图1说明（覆盖规模与人均待遇的月度趋势）：</strong></p>
 <ul>
-<li><strong>现象</strong>：2021年1月至2026年9月，全市两项补贴月度覆盖人数由约2.85万人持续上升至约5.47万人，六年增长近一倍；同期人均月补贴由约362元温和升至约458元，长期稳定在450—460元区间。表明政策扩面成效显著，但人均待遇提升相对平缓。</li>
+<li><strong>结果解释</strong>：2021年1月至2026年9月，全市两项补贴月度覆盖人数由约2.85万人持续上升至约5.47万人，六年增长近一倍；同期人均月补贴由约362元温和升至约458元，长期稳定在450—460元区间。表明政策扩面成效显著，但人均待遇提升相对平缓。</li>
 <li><strong>公共管理含义</strong>：覆盖规模持续扩张反映深圳残疾人兜底保障网逐步收紧、“应保尽保”推进有力；人均待遇长期低位平稳则说明补贴标准调整审慎、保障水平增长有限，政策重心偏向”扩面”而非”提标”。</li>
 <li><strong>不能推出的结论</strong>：不能推出覆盖人数增长源于政策扩面而非残疾人口自然增长（缺少分母）；也不能推出人均待遇在地区间、群体间是否均衡（全市加总掩盖了内部结构）。</li>
 </ul>
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb80"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb80-1"><a href="#cb80-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 图2：三类领取人群全市构成（修坐标轴 + 柱顶人数标签）</span></span>
 <span id="cb80-2"><a href="#cb80-2" aria-hidden="true" tabindex="-1"></a>comp <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span></span>
 <span id="cb80-3"><a href="#cb80-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
@@ -2899,6 +3038,7 @@ $ 环比增长率                                 &lt;dbl&gt; NA, -0.064887365, 
 <span id="cb80-20"><a href="#cb80-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">&quot;数据来源：深圳市政府数据开放平台·残疾人两项补贴月报表（全市10区×69月汇总）&quot;</span></span>
 <span id="cb80-21"><a href="#cb80-21" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
 <span id="cb80-22"><a href="#cb80-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -2914,6 +3054,8 @@ $ 环比增长率                                 &lt;dbl&gt; NA, -0.064887365, 
 <li><strong>不能推出的结论</strong>：不能推出各类人群的福利需求紧迫度排序（规模大不等于需求更迫切）；也不能推出实际人口覆盖率（缺少残疾人总数作分母）。</li>
 </ul>
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb81"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb81-1"><a href="#cb81-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 图3：各区合计领取人数（修坐标轴 + 柱顶人数标签）</span></span>
 <span id="cb81-2"><a href="#cb81-2" aria-hidden="true" tabindex="-1"></a>dist <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span></span>
 <span id="cb81-3"><a href="#cb81-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(地区) <span class="sc">%&gt;%</span></span>
@@ -2936,6 +3078,7 @@ $ 环比增长率                                 &lt;dbl&gt; NA, -0.064887365, 
 <span id="cb81-20"><a href="#cb81-20" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
 <span id="cb81-21"><a href="#cb81-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
 <span id="cb81-22"><a href="#cb81-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -2946,11 +3089,34 @@ $ 环比增长率                                 &lt;dbl&gt; NA, -0.064887365, 
 </div>
 <p><strong>图3说明（各区合计领取人数）：</strong></p>
 <ul>
-<li><strong>现象</strong>：各区累计领取人数呈明显阶梯分布，福田区最高（约65.2万），依次为南山、龙岗、罗湖、宝安，最低的大鹏新区仅约4.8万，最高区约为最低区的13.6倍，空间分布高度不均衡。</li>
+<li><strong>结果解释</strong>：各区累计领取人数呈明显阶梯分布，福田区最高（约65.2万），依次为南山、龙岗、罗湖、宝安，最低的大鹏新区仅约4.8万，最高区约为最低区的13.6倍，空间分布高度不均衡。</li>
 <li><strong>公共管理含义</strong>：补贴资源的空间分布与各区的残疾人规模、户籍与常住人口结构高度相关，反映出公共服务供给在空间上的不均衡；对大鹏、盐田、坪山等外围区的保障可达性与资源投入，值得在资源配置时重点考量。</li>
 <li><strong>不能推出的结论</strong>：不能推出各区残疾人”真实需求量”差异（人数多可能源于人口基数大而非需求更高）；也不能说明资金使用效率或服务质量，本图仅反映领取规模。</li>
 </ul>
-<p>```</p>
+</section>
+<section id="八数据局限和后续机器学习适用性" class="level2">
+<h2 class="anchored" data-anchor-id="八数据局限和后续机器学习适用性">八、数据局限和后续机器学习适用性</h2>
+<p><strong>1. 是否存在明确的目标变量？</strong> 原始数据本身不含现成的目标变量，所有字段都是描述性的区-月统计。但它适合由研究者围绕规模与资金自行构造预测目标，例如将未来某区某月的合计领取人数或发放资金合计设为预测对象。因此数据没有内置目标，却具备构造目标的充分条件，并非无目标可用。</p>
+<p><strong>2. 目标变量是连续值还是类别？</strong> 取决于任务定义，二者皆可行。若将下月合计领取人数或下月发放资金合计作为目标，则为连续值，对应回归任务；若将下月是否进入高人均待遇状态、环比是否加速增长等定义为目标，则为类别，对应分类任务。数据本身不限定目标类型，研究者可根据后续机器学习作业的需要选择。</p>
+<p><strong>3. 是否有足够样本和可用特征？</strong> 样本量为 690 行（10 区 × 69 月），属于中等偏小规模，足以支撑轻量模型，但不足以训练深度学习等复杂模型。可用特征包括地区、年月及其派生项、历史人数与资金、各类人群的结构比例、人均月补贴的历史值等，特征维度足够。需要留意的是地区维度仅有 10 个，若对地区做独热编码会占用较多参数，宜配合固定效应或分层处理。</p>
+<p><strong>4. 哪些变量在真实预测时点能够获得？</strong> 预测下月状态时，只能使用截至本月末已知的信息。在真实预测时点可获得的有地区标识、历史累计人数与资金、历史各类人群结构比例、历史人均月补贴、月份与季节性等滞后或静态变量。任何属于被预测月份本身的数据都属于目标而非特征，不能在训练时使用。</p>
+<p><strong>5. 是否存在由结果直接生成的泄漏变量？</strong> 存在需要警惕的泄漏风险。人均月补贴由发放资金除以合计人数得到，若以资金或人数为目标，该变量本质上由目标推导而来，直接放入特征会构成泄漏。各分解列（仅护理、仅生活、同时两贴等）与合计列高度线性相关，若以合计人数为目标又将这些分解列作为特征，近似于把答案喂给模型，同样属于泄漏。此外环比增长率依赖滞后项，需确保滞后步长不超过预测步长，避免用到未来信息。</p>
+<p><strong>6. 应采用随机划分、时间划分还是分组划分？</strong> 应采用时间划分而非随机划分。由于数据具有明确的时间顺序，随机切分会使未来月份的信息泄漏进训练集，导致评估结果虚高。正确做法是以靠前若干期（如剔除最后 12 个月）为训练集，以最末 12 个月为测试集，模拟用历史预测未来的真实场景。分组划分（如按地区留一法）在此不如时间划分自然，因为本数据的核心预测目标是面向时间而非跨地区泛化。</p>
+<p><strong>总结</strong> 综合上述六点，这份区-月面板数据适合作为后续监督学习的输入，但适用面较窄，仅适合时间序列预测类任务，并不适合直接用于因果推断、空间分析或文本建模。若用于监督学习，需自行构造连续或类别目标，在特征设计中规避由目标直接生成的共线与泄漏变量，并严格采用时间划分而非随机划分，方能得出可信结论。若后续机器学习作业希望开展因果或文本类分析，则本数据不适合直接监督学习。</p>
+</section>
+<section id="九ai辅助使用说明" class="level2">
+<h2 class="anchored" data-anchor-id="九ai辅助使用说明">九、AI辅助使用说明</h2>
+<p>本次作业中，我使用了生成式AI对话助手（chatGPT、workbuddy、deepseek等）作为编程与分析的辅助工具。根据课程关于AI辅助使用的规则，未上传任何含个人身份或敏感行政信息的数据（本作业所用为深圳市政府数据开放平台的区-月聚合统计，不含个人层面信息）。</p>
+<p><strong>AI辅助的环节：</strong></p>
+<ol type="1">
+<li><p>解释运行过程中的错误信息，帮助我定位如函数未加载、代码块嵌套等具体问题；</p></li>
+<li><p>针对数据审计与清理提出建议性代码，包括变量类型与日期转换、缺失标记、异常值标记及公共管理指标的构造；</p></li>
+<li><p>帮助我理解相关函数（如 glimpse、pivot_longer、facet_wrap 等）的参数含义与适用场景；</p></li>
+<li><p>协助检查图表的坐标轴标注、单位与数据来源说明是否规范；</p></li>
+<li><p>对部分代码注释与文字表述提出改进建议，使报告表达更为清晰。</p></li>
+</ol>
+<!-- -->
+
 </section>
 </section>
 
@@ -3026,6 +3192,57 @@ $ 环比增长率                                 &lt;dbl&gt; NA, -0.064887365, 
         container: window.document.getElementById('quarto-embedded-source-code-modal')
       });
       clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const cellDetails = window.document.querySelectorAll(".cell details.code-fold");
+        for (let i=0; i<cellDetails.length; i++) {
+          const details = cellDetails[i];
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell div.sourceCode.cell-code");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
@@ -3355,7 +3572,395 @@ $ 环比增长率                                 &lt;dbl&gt; NA, -0.064887365, 
       }
     }
   });
-  </script>
+  </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb82" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb82-1"><a href="#cb82-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb82-2"><a href="#cb82-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> &quot;公共大数据分析课程作业一&quot;</span></span>
+<span id="cb82-3"><a href="#cb82-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> &quot;陈曼贞&quot;</span></span>
+<span id="cb82-4"><a href="#cb82-4" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb82-5"><a href="#cb82-5" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb82-6"><a href="#cb82-6" aria-hidden="true" tabindex="-1"></a><span class="co">    self-contained: true</span></span>
+<span id="cb82-7"><a href="#cb82-7" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
+<span id="cb82-8"><a href="#cb82-8" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
+<span id="cb82-9"><a href="#cb82-9" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true</span></span>
+<span id="cb82-10"><a href="#cb82-10" aria-hidden="true" tabindex="-1"></a><span class="co">    toc-depth: 3</span></span>
+<span id="cb82-11"><a href="#cb82-11" aria-hidden="true" tabindex="-1"></a><span class="an">editor:</span><span class="co"> source</span></span>
+<span id="cb82-12"><a href="#cb82-12" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb82-13"><a href="#cb82-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-14"><a href="#cb82-14" aria-hidden="true" tabindex="-1"></a><span class="fu"># 阶段一：数据可行性检查</span></span>
+<span id="cb82-15"><a href="#cb82-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-16"><a href="#cb82-16" aria-hidden="true" tabindex="-1"></a><span class="fu">## 一、公共管理问题与数据来源</span></span>
+<span id="cb82-17"><a href="#cb82-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-18"><a href="#cb82-18" aria-hidden="true" tabindex="-1"></a><span class="fu">## 1.研究问题</span></span>
+<span id="cb82-19"><a href="#cb82-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-20"><a href="#cb82-20" aria-hidden="true" tabindex="-1"></a>利用深圳市10个区2021年1月至2026年9月的残疾人两项补贴区-月汇总数据，描述并比较残疾人福利补贴的覆盖规模、领取结构与人均待遇水平这一基层公共服务供给现象，并分析其在各区之间、69个月期间以及不同年龄、性别与残疾类型群体中的差异。</span>
+<span id="cb82-21"><a href="#cb82-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-22"><a href="#cb82-22" aria-hidden="true" tabindex="-1"></a><span class="fu">## **2.数据来源-数据可行卡**</span></span>
+<span id="cb82-23"><a href="#cb82-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-24"><a href="#cb82-24" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 检查内容 <span class="pp">|</span> 学生填写（模板提示） <span class="pp">|</span> 学生数据 <span class="pp">|</span></span>
+<span id="cb82-25"><a href="#cb82-25" aria-hidden="true" tabindex="-1"></a><span class="pp">|------------------------|------------------------|------------------------|</span></span>
+<span id="cb82-26"><a href="#cb82-26" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 数据名称与来源 <span class="pp">|</span> 机构、平台、网址或文献 <span class="pp">|</span> 深圳市民政局「深圳市残疾人两项补贴月报表」，来源为深圳市政府数据开放平台（opendata.sz.gov.cn） <span class="pp">|</span></span>
+<span id="cb82-27"><a href="#cb82-27" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 获取日期与方式 <span class="pp">|</span> 下载、API、网页、申请或教师提供 <span class="pp">|</span> 2026年11月8日，平台数据详情页网页直接下载CSV，无条件开放、无需申请；非API、非教师提供 <span class="pp">|</span></span>
+<span id="cb82-28"><a href="#cb82-28" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 分析单位 <span class="pp">|</span> 一行代表个人、地区、日期、工单、企业还是政策文本 <span class="pp">|</span> 一行＝深圳市某一个区在某一個月的残疾人两项补贴汇总统计，即「地区–月」面板 <span class="pp">|</span></span>
+<span id="cb82-29"><a href="#cb82-29" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 时间范围 <span class="pp">|</span> 数据覆盖的起止时间 <span class="pp">|</span> 2021年1月—2026年9月，共69个月，每区每月一行、无缺月 <span class="pp">|</span></span>
+<span id="cb82-30"><a href="#cb82-30" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 空间范围 <span class="pp">|</span> 全国、省、市、区县或具体机构 <span class="pp">|</span> 深圳市下辖10个区／功能区（区级汇总；非全国、非省级、非街道级） <span class="pp">|</span></span>
+<span id="cb82-31"><a href="#cb82-31" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 数据规模 <span class="pp">|</span> 行数、列数、文件格式和大致大小 <span class="pp">|</span> 690行×21列，CSV格式，约66KB，UTF-8（含BOM）；10区×69月＝690行 <span class="pp">|</span></span>
+<span id="cb82-32"><a href="#cb82-32" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 主键 <span class="pp">|</span> 是否存在唯一标识；若无，可能由哪些字段组成 <span class="pp">|</span> 无独立唯一标识列；「地区+月份」联合可唯一确定一行（690行无重复）；「序号」仅为区内排序号，全表不唯一 <span class="pp">|</span></span>
+<span id="cb82-33"><a href="#cb82-33" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 核心变量 <span class="pp">|</span> 与研究问题直接相关的变量 <span class="pp">|</span> 地区、月份、合计人数（人）、发放资金合计（元）；补贴类型：领取护理补贴／领取生活补贴人数、仅领取护理／仅领取生活／同时领取两贴人数；对象特征：性别男／女、18岁以下／18–59岁／60岁以上、低保残疾人、支出型困难家庭残疾人、重度残疾人及重度精神智力残疾人、老残一体、一户多残、残疾军人及残疾警察。可派生「人均月补贴＝发放资金合计÷合计人数」 <span class="pp">|</span></span>
+<span id="cb82-34"><a href="#cb82-34" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 初步质量问题 <span class="pp">|</span> 缺失、重复、类型、异常编码或多表连接问题 <span class="pp">|</span> 仅3个数值缺失、无负数，导入无障碍。①列间加总关系不一致：「男+女＝合计人数」688行不成立，「仅护理+仅生活+同时两贴＝合计」690行全不成立，「三个年龄段之和＝合计」16行不符，疑为统计口径差异，须先核对数据字典再决定处理，不宜直接判为错误值；②派生的人均月补贴最高约3625元、中位约455元，存在异常高值需核查单位／口径；③月份为YYYYMM数字，须派生年份与日期变量；④分解列与合计列高度共线，建模时不可同时作为特征与目标（防标签泄漏）；⑤单表数据，无多表连接问题 <span class="pp">|</span></span>
+<span id="cb82-35"><a href="#cb82-35" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 获取与使用限制 <span class="pp">|</span> 是否需要申请、引用、匿名化或禁止再分发 <span class="pp">|</span> 无条件开放、网页直接下载、无需申请；全部为区-月聚合统计，不含姓名、证件号、住址等个人敏感信息，无需匿名化，可用于课程作业 <span class="pp">|</span></span>
+<span id="cb82-36"><a href="#cb82-36" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 备用方案 <span class="pp">|</span> 数据不可用时改用什么数据或调整什么问题 <span class="pp">|</span> 无 <span class="pp">|</span></span>
+<span id="cb82-37"><a href="#cb82-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-38"><a href="#cb82-38" aria-hidden="true" tabindex="-1"></a>**3 必须提供的实际证据**</span>
+<span id="cb82-39"><a href="#cb82-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-42"><a href="#cb82-42" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb82-43"><a href="#cb82-43" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb82-44"><a href="#cb82-44" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb82-45"><a href="#cb82-45" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb82-46"><a href="#cb82-46" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb82-47"><a href="#cb82-47" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(scales)</span>
+<span id="cb82-48"><a href="#cb82-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-49"><a href="#cb82-49" aria-hidden="true" tabindex="-1"></a>raw_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;data/raw/深圳市民政局-深圳市残疾人两项补贴月报表_2920000803597.csv&quot;</span>)</span>
+<span id="cb82-50"><a href="#cb82-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-51"><a href="#cb82-51" aria-hidden="true" tabindex="-1"></a><span class="fu">dim</span>(raw_data)      <span class="co"># 行数×列数</span></span>
+<span id="cb82-52"><a href="#cb82-52" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(raw_data)  <span class="co"># 每列类型与样例</span></span>
+<span id="cb82-53"><a href="#cb82-53" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(raw_data)     <span class="co"># 前6行实际内容</span></span>
+<span id="cb82-54"><a href="#cb82-54" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb82-55"><a href="#cb82-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-56"><a href="#cb82-56" aria-hidden="true" tabindex="-1"></a><span class="fu"># 阶段二：完整数据项目</span></span>
+<span id="cb82-57"><a href="#cb82-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-58"><a href="#cb82-58" aria-hidden="true" tabindex="-1"></a><span class="fu">## 二、 文献分析思路</span></span>
+<span id="cb82-59"><a href="#cb82-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-60"><a href="#cb82-60" aria-hidden="true" tabindex="-1"></a>1.本研究围绕&quot;深圳市残疾人两项补贴的覆盖规模、领取结构与人均待遇在地区、时期与群体间呈现怎样的差异&quot;这一公共管理问题展开。两项补贴是国家层面第一项残疾人专项福利制度，事关兜底保障的公平与效率。</span>
+<span id="cb82-61"><a href="#cb82-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-62"><a href="#cb82-62" aria-hidden="true" tabindex="-1"></a>2.问题的公共价值。残疾人是需要格外关心的困难群体，补贴资金来源于财政、面向基本民生。厘清补贴在区域间、群体间的分布是否均衡，能够揭示公共资源是否精准惠及最需要的人群，对优化兜底保障、推进共同富裕具有直接的政策含义。</span>
+<span id="cb82-63"><a href="#cb82-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-64"><a href="#cb82-64" aria-hidden="true" tabindex="-1"></a>3.相关文献与类似方法。既有研究以深圳市为例，利用两项补贴的行政发放记录与家庭收支调查数据，评估政策的瞄准偏误，发现生活补贴漏保、护理补贴误保较为普遍，并指出类型化瞄准未能充分对应真实照护需求¹。该研究证明，借助深圳本地的两项补贴行政数据，可以刻画补贴的覆盖与结构并支撑公共治理判断；本研究沿用同一城市、同一政策的公开汇总数据，从规模—结构—区际差异三个维度做描述性分析，与之形成方法上的呼应。</span>
+<span id="cb82-65"><a href="#cb82-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-66"><a href="#cb82-66" aria-hidden="true" tabindex="-1"></a>4.数据的分析单位、时间与空间范围。数据来自深圳市政府数据开放平台，由深圳市民政局发布。分析单位为&quot;地区—月&quot;面板，一行代表深圳市某一区某一个月的补贴汇总；时间覆盖2021年1月至2026年9月（共69个月），空间覆盖全市10个区，共690行、21个变量。</span>
+<span id="cb82-67"><a href="#cb82-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-68"><a href="#cb82-68" aria-hidden="true" tabindex="-1"></a>5.数据为何能支撑该问题。数据包含合计人数、发放资金、护理与生活补贴领取人数、性别与年龄结构、重点保障对象类别等字段，足以直接回答&quot;规模如何变化、结构怎样、区际差异多大&quot;三类描述性问题；且为区级聚合统计，不含个人敏感信息，可公开使用。</span>
+<span id="cb82-69"><a href="#cb82-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-70"><a href="#cb82-70" aria-hidden="true" tabindex="-1"></a>6.数据不能回答什么。本数据为区—月汇总，无法识别个体是否应保未保或错保（即瞄准偏误的具体个体机制）；缺少政策调整、人口结构、财政投入等外生变量，不能解释差异的成因，所得结论仅作描述性与探索性判断，不构成政策因果效应。</span>
+<span id="cb82-71"><a href="#cb82-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-72"><a href="#cb82-72" aria-hidden="true" tabindex="-1"></a><span class="fu">## 三、清理前数据审计</span></span>
+<span id="cb82-73"><a href="#cb82-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-76"><a href="#cb82-76" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb82-77"><a href="#cb82-77" aria-hidden="true" tabindex="-1"></a><span class="co">#  5.2 清理前数据审计（基于原始 raw_data，未做任何清理） </span></span>
+<span id="cb82-78"><a href="#cb82-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-79"><a href="#cb82-79" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr); <span class="fu">library</span>(dplyr); <span class="fu">library</span>(tidyr); <span class="fu">library</span>(ggplot2)</span>
+<span id="cb82-80"><a href="#cb82-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-81"><a href="#cb82-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-82"><a href="#cb82-82" aria-hidden="true" tabindex="-1"></a><span class="co"># 1) 行数与变量数</span></span>
+<span id="cb82-83"><a href="#cb82-83" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;【1】行数 × 列数：</span><span class="sc">\n</span><span class="st">&quot;</span>); <span class="fu">print</span>(<span class="fu">dim</span>(raw_data))</span>
+<span id="cb82-84"><a href="#cb82-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-85"><a href="#cb82-85" aria-hidden="true" tabindex="-1"></a><span class="co"># 2) 主键唯一性：无独立主键，候选键为「地区 + 月份」</span></span>
+<span id="cb82-86"><a href="#cb82-86" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【2】候选主键 地区+月份 重复数（期望 0）：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-87"><a href="#cb82-87" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">sum</span>(<span class="fu">duplicated</span>(raw_data[<span class="fu">c</span>(<span class="st">&quot;地区&quot;</span>, <span class="st">&quot;月份&quot;</span>)])))</span>
+<span id="cb82-88"><a href="#cb82-88" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;序号 全表重复数（仅区内排序号，非全表唯一，记录下来）：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-89"><a href="#cb82-89" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">sum</span>(<span class="fu">duplicated</span>(raw_data[[<span class="st">&quot;序号&quot;</span>]])))</span>
+<span id="cb82-90"><a href="#cb82-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-91"><a href="#cb82-91" aria-hidden="true" tabindex="-1"></a><span class="co"># 3) 变量类型</span></span>
+<span id="cb82-92"><a href="#cb82-92" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【3】各列类型：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-93"><a href="#cb82-93" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">table</span>(<span class="fu">vapply</span>(raw_data, <span class="cf">function</span>(x) <span class="fu">class</span>(x)[<span class="dv">1</span>], <span class="fu">character</span>(<span class="dv">1</span>))))</span>
+<span id="cb82-94"><a href="#cb82-94" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(raw_data)</span>
+<span id="cb82-95"><a href="#cb82-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-96"><a href="#cb82-96" aria-hidden="true" tabindex="-1"></a><span class="co"># 4) 各变量缺失数量与比例（真缺失 NA）</span></span>
+<span id="cb82-97"><a href="#cb82-97" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【4】缺失统计：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-98"><a href="#cb82-98" aria-hidden="true" tabindex="-1"></a>miss <span class="ot">&lt;-</span> raw_data <span class="sc">%&gt;%</span></span>
+<span id="cb82-99"><a href="#cb82-99" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="fu">everything</span>(), <span class="sc">~</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(.x)))) <span class="sc">%&gt;%</span></span>
+<span id="cb82-100"><a href="#cb82-100" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(<span class="fu">everything</span>(), <span class="at">names_to =</span> <span class="st">&quot;变量&quot;</span>, <span class="at">values_to =</span> <span class="st">&quot;缺失数&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb82-101"><a href="#cb82-101" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(缺失比例 <span class="ot">=</span> <span class="fu">round</span>(缺失数 <span class="sc">/</span> <span class="fu">nrow</span>(raw_data), <span class="dv">4</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb82-102"><a href="#cb82-102" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(缺失数))</span>
+<span id="cb82-103"><a href="#cb82-103" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(miss, <span class="at">n =</span> <span class="cn">Inf</span>)</span>
+<span id="cb82-104"><a href="#cb82-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-105"><a href="#cb82-105" aria-hidden="true" tabindex="-1"></a><span class="co"># 5) 完全重复记录</span></span>
+<span id="cb82-106"><a href="#cb82-106" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【5】完全重复行数（期望 0）：</span><span class="sc">\n</span><span class="st">&quot;</span>); <span class="fu">print</span>(<span class="fu">sum</span>(<span class="fu">duplicated</span>(raw_data)))</span>
+<span id="cb82-107"><a href="#cb82-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-108"><a href="#cb82-108" aria-hidden="true" tabindex="-1"></a><span class="co"># 6) 日期范围与连续性（月份为 YYYYMM 数值）</span></span>
+<span id="cb82-109"><a href="#cb82-109" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【6】月份范围与连续性：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-110"><a href="#cb82-110" aria-hidden="true" tabindex="-1"></a>dates <span class="ot">&lt;-</span> <span class="fu">as.Date</span>(<span class="fu">paste0</span>(raw_data[[<span class="st">&quot;月份&quot;</span>]], <span class="st">&quot;01&quot;</span>), <span class="at">format =</span> <span class="st">&quot;%Y%m%d&quot;</span>)</span>
+<span id="cb82-111"><a href="#cb82-111" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">range</span>(dates)); <span class="fu">cat</span>(<span class="st">&quot;不同月份数：&quot;</span>, <span class="fu">length</span>(<span class="fu">unique</span>(dates)), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-112"><a href="#cb82-112" aria-hidden="true" tabindex="-1"></a>all_months <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="fu">min</span>(dates), <span class="fu">max</span>(dates), <span class="at">by =</span> <span class="st">&quot;month&quot;</span>)</span>
+<span id="cb82-113"><a href="#cb82-113" aria-hidden="true" tabindex="-1"></a>missing_months <span class="ot">&lt;-</span> <span class="fu">setdiff</span>(<span class="fu">format</span>(all_months, <span class="st">&quot;%Y%m&quot;</span>),</span>
+<span id="cb82-114"><a href="#cb82-114" aria-hidden="true" tabindex="-1"></a>                          <span class="fu">unique</span>(<span class="fu">as.character</span>(raw_data[[<span class="st">&quot;月份&quot;</span>]])))</span>
+<span id="cb82-115"><a href="#cb82-115" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;缺失的月份（应为空字符）：&quot;</span>, <span class="fu">paste</span>(missing_months, <span class="at">collapse =</span> <span class="st">&quot; &quot;</span>), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-116"><a href="#cb82-116" aria-hidden="true" tabindex="-1"></a>month_rows <span class="ot">&lt;-</span> raw_data <span class="sc">%&gt;%</span> dplyr<span class="sc">::</span><span class="fu">count</span>(月份, <span class="at">name =</span> <span class="st">&quot;行数&quot;</span>)</span>
+<span id="cb82-117"><a href="#cb82-117" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;每期(月)行数范围：&quot;</span>, <span class="fu">range</span>(month_rows<span class="sc">$</span>行数), <span class="st">&quot;（应恒为 10）</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-118"><a href="#cb82-118" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;是否存在非 10 行的月份：&quot;</span>, <span class="fu">any</span>(month_rows<span class="sc">$</span>行数 <span class="sc">!=</span> <span class="dv">10</span>), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-119"><a href="#cb82-119" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-120"><a href="#cb82-120" aria-hidden="true" tabindex="-1"></a><span class="co"># 7) 异常编码扫描：非数值占位符（如 &quot;-&quot; 伪缺失）</span></span>
+<span id="cb82-121"><a href="#cb82-121" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【7】异常编码扫描（&#39;-&#39; 等伪缺失）：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-122"><a href="#cb82-122" aria-hidden="true" tabindex="-1"></a>pseudo <span class="ot">&lt;-</span> raw_data <span class="sc">%&gt;%</span></span>
+<span id="cb82-123"><a href="#cb82-123" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="fu">where</span>(is.character), <span class="sc">~</span> <span class="fu">sum</span>(.x <span class="sc">==</span> <span class="st">&quot;-&quot;</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))) <span class="sc">%&gt;%</span></span>
+<span id="cb82-124"><a href="#cb82-124" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(<span class="fu">everything</span>(), <span class="at">names_to =</span> <span class="st">&quot;变量&quot;</span>, <span class="at">values_to =</span> <span class="st">&quot;减号个数&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb82-125"><a href="#cb82-125" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(减号个数 <span class="sc">&gt;</span> <span class="dv">0</span>)</span>
+<span id="cb82-126"><a href="#cb82-126" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(pseudo, <span class="at">n =</span> <span class="cn">Inf</span>)</span>
+<span id="cb82-127"><a href="#cb82-127" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-128"><a href="#cb82-128" aria-hidden="true" tabindex="-1"></a><span class="co"># 8) 列间加总关系一致性（仅记录不一致行数，不等于错误，疑为统计口径差异）</span></span>
+<span id="cb82-129"><a href="#cb82-129" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【8】加总关系一致性（仅记录不一致行数）：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-130"><a href="#cb82-130" aria-hidden="true" tabindex="-1"></a>n_total <span class="ot">&lt;-</span> <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(raw_data[[<span class="st">&quot;合计人数（人）&quot;</span>]]))</span>
+<span id="cb82-131"><a href="#cb82-131" aria-hidden="true" tabindex="-1"></a>chk_gender <span class="ot">&lt;-</span> <span class="fu">sum</span>(<span class="fu">abs</span>(<span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(raw_data[[<span class="st">&quot;性别男（人）&quot;</span>]])) <span class="sc">+</span></span>
+<span id="cb82-132"><a href="#cb82-132" aria-hidden="true" tabindex="-1"></a>                        <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(raw_data[[<span class="st">&quot;性别女（人）&quot;</span>]])) <span class="sc">-</span> n_total) <span class="sc">&gt;</span> <span class="dv">0</span>,</span>
+<span id="cb82-133"><a href="#cb82-133" aria-hidden="true" tabindex="-1"></a>                  <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb82-134"><a href="#cb82-134" aria-hidden="true" tabindex="-1"></a>chk_split <span class="ot">&lt;-</span> <span class="fu">sum</span>(<span class="fu">abs</span>(<span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(raw_data[[<span class="st">&quot;仅领取护理补贴人数（人）&quot;</span>]])) <span class="sc">+</span></span>
+<span id="cb82-135"><a href="#cb82-135" aria-hidden="true" tabindex="-1"></a>                       <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(raw_data[[<span class="st">&quot;仅领取生活补贴人数（人）&quot;</span>]])) <span class="sc">+</span></span>
+<span id="cb82-136"><a href="#cb82-136" aria-hidden="true" tabindex="-1"></a>                       <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(raw_data[[<span class="st">&quot;同时领取两贴人数（人）&quot;</span>]])) <span class="sc">-</span> n_total) <span class="sc">&gt;</span> <span class="dv">0</span>,</span>
+<span id="cb82-137"><a href="#cb82-137" aria-hidden="true" tabindex="-1"></a>                 <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb82-138"><a href="#cb82-138" aria-hidden="true" tabindex="-1"></a>chk_age <span class="ot">&lt;-</span> <span class="fu">sum</span>(<span class="fu">abs</span>(<span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(raw_data[[<span class="st">&quot;年龄18岁以下（人）&quot;</span>]])) <span class="sc">+</span></span>
+<span id="cb82-139"><a href="#cb82-139" aria-hidden="true" tabindex="-1"></a>                     <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(raw_data[[<span class="st">&quot;年龄18至59岁（人）&quot;</span>]])) <span class="sc">+</span></span>
+<span id="cb82-140"><a href="#cb82-140" aria-hidden="true" tabindex="-1"></a>                     <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(raw_data[[<span class="st">&quot;年龄60岁以上（人）&quot;</span>]])) <span class="sc">-</span> n_total) <span class="sc">&gt;</span> <span class="dv">0</span>,</span>
+<span id="cb82-141"><a href="#cb82-141" aria-hidden="true" tabindex="-1"></a>               <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb82-142"><a href="#cb82-142" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;男+女 ≠ 合计 的行数：&quot;</span>, chk_gender, <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-143"><a href="#cb82-143" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;仅护理+仅生活+同时两贴 ≠ 合计 的行数：&quot;</span>, chk_split, <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-144"><a href="#cb82-144" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;三个年龄段之和 ≠ 合计 的行数：&quot;</span>, chk_age, <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-145"><a href="#cb82-145" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-146"><a href="#cb82-146" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb82-147"><a href="#cb82-147" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-148"><a href="#cb82-148" aria-hidden="true" tabindex="-1"></a><span class="fu">## 四、 数据清理规则与代码</span></span>
+<span id="cb82-149"><a href="#cb82-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-152"><a href="#cb82-152" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb82-153"><a href="#cb82-153" aria-hidden="true" tabindex="-1"></a><span class="co"># ========== 5.3 有理由的数据清理 ==========</span></span>
+<span id="cb82-154"><a href="#cb82-154" aria-hidden="true" tabindex="-1"></a><span class="co"># 仅做审计证实确有必要的清理，不做无谓 Winsorize/插值/连接/长宽转换</span></span>
+<span id="cb82-155"><a href="#cb82-155" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-156"><a href="#cb82-156" aria-hidden="true" tabindex="-1"></a><span class="co"># --- 清理1：变量类型与日期转换 + &quot;-&quot; 伪缺失转 NA ---</span></span>
+<span id="cb82-157"><a href="#cb82-157" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> raw_data <span class="sc">%&gt;%</span></span>
+<span id="cb82-158"><a href="#cb82-158" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb82-159"><a href="#cb82-159" aria-hidden="true" tabindex="-1"></a>    年  <span class="ot">=</span> <span class="fu">as.integer</span>(<span class="fu">substr</span>(<span class="fu">as.character</span>(月份), <span class="dv">1</span>, <span class="dv">4</span>)),</span>
+<span id="cb82-160"><a href="#cb82-160" aria-hidden="true" tabindex="-1"></a>    月  <span class="ot">=</span> <span class="fu">as.integer</span>(<span class="fu">substr</span>(<span class="fu">as.character</span>(月份), <span class="dv">5</span>, <span class="dv">6</span>)),</span>
+<span id="cb82-161"><a href="#cb82-161" aria-hidden="true" tabindex="-1"></a>    日期 <span class="ot">=</span> <span class="fu">as.Date</span>(<span class="fu">paste0</span>(月份, <span class="st">&quot;01&quot;</span>), <span class="at">format =</span> <span class="st">&quot;%Y%m%d&quot;</span>),</span>
+<span id="cb82-162"><a href="#cb82-162" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 将 &quot;-&quot; 伪缺失转为 NA（数值化）</span></span>
+<span id="cb82-163"><a href="#cb82-163" aria-hidden="true" tabindex="-1"></a>    支出型困难家庭残疾人 <span class="ot">=</span> <span class="fu">suppressWarnings</span>(</span>
+<span id="cb82-164"><a href="#cb82-164" aria-hidden="true" tabindex="-1"></a>      <span class="fu">as.numeric</span>(<span class="st">`</span><span class="at">生活补贴对象支出型困难家庭残疾人（人）</span><span class="st">`</span>)),</span>
+<span id="cb82-165"><a href="#cb82-165" aria-hidden="true" tabindex="-1"></a>    缺失_支出困难 <span class="ot">=</span> <span class="fu">is.na</span>(支出型困难家庭残疾人)</span>
+<span id="cb82-166"><a href="#cb82-166" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb82-167"><a href="#cb82-167" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="st">`</span><span class="at">生活补贴对象支出型困难家庭残疾人（人）</span><span class="st">`</span>)   <span class="co"># 删原字符列，保留数值版</span></span>
+<span id="cb82-168"><a href="#cb82-168" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-169"><a href="#cb82-169" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;【清理1·验证】日期范围：&quot;</span>,</span>
+<span id="cb82-170"><a href="#cb82-170" aria-hidden="true" tabindex="-1"></a>    <span class="fu">min</span>(data<span class="sc">$</span>日期), <span class="st">&quot;至&quot;</span>, <span class="fu">max</span>(data<span class="sc">$</span>日期),</span>
+<span id="cb82-171"><a href="#cb82-171" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;；缺失_支出困难行数：&quot;</span>, <span class="fu">sum</span>(data<span class="sc">$</span>缺失_支出困难), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-172"><a href="#cb82-172" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-173"><a href="#cb82-173" aria-hidden="true" tabindex="-1"></a><span class="co"># --- 清理2：缺失识别与标记（不删除、不插补）---</span></span>
+<span id="cb82-174"><a href="#cb82-174" aria-hidden="true" tabindex="-1"></a>miss_clean <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span></span>
+<span id="cb82-175"><a href="#cb82-175" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="fu">where</span>(is.numeric), <span class="sc">~</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(.x)))) <span class="sc">%&gt;%</span></span>
+<span id="cb82-176"><a href="#cb82-176" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(<span class="fu">everything</span>(), <span class="at">names_to =</span> <span class="st">&quot;变量&quot;</span>, <span class="at">values_to =</span> <span class="st">&quot;缺失数&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb82-177"><a href="#cb82-177" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(缺失数 <span class="sc">&gt;</span> <span class="dv">0</span>)</span>
+<span id="cb82-178"><a href="#cb82-178" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【清理2·验证】仍有缺失的数值列：</span><span class="sc">\n</span><span class="st">&quot;</span>); <span class="fu">print</span>(miss_clean, <span class="at">n =</span> <span class="cn">Inf</span>)</span>
+<span id="cb82-179"><a href="#cb82-179" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;是否删除任何行：否，行数仍为&quot;</span>, <span class="fu">nrow</span>(data), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-180"><a href="#cb82-180" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-181"><a href="#cb82-181" aria-hidden="true" tabindex="-1"></a><span class="co"># --- 清理3：异常值识别与标记（人均月补贴极端高值）---</span></span>
+<span id="cb82-182"><a href="#cb82-182" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span></span>
+<span id="cb82-183"><a href="#cb82-183" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb82-184"><a href="#cb82-184" aria-hidden="true" tabindex="-1"></a>    人均月补贴 <span class="ot">=</span> <span class="st">`</span><span class="at">发放资金合计（元）</span><span class="st">`</span> <span class="sc">/</span> <span class="st">`</span><span class="at">合计人数（人）</span><span class="st">`</span>,</span>
+<span id="cb82-185"><a href="#cb82-185" aria-hidden="true" tabindex="-1"></a>    是否高人均 <span class="ot">=</span> 人均月补贴 <span class="sc">&gt;</span> <span class="dv">3</span> <span class="sc">*</span> <span class="fu">median</span>(人均月补贴, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb82-186"><a href="#cb82-186" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb82-187"><a href="#cb82-187" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【清理3·验证】人均月补贴中位数：&quot;</span>,</span>
+<span id="cb82-188"><a href="#cb82-188" aria-hidden="true" tabindex="-1"></a>    <span class="fu">round</span>(<span class="fu">median</span>(data<span class="sc">$</span>人均月补贴, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="dv">1</span>),</span>
+<span id="cb82-189"><a href="#cb82-189" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;；高人均行数：&quot;</span>, <span class="fu">sum</span>(data<span class="sc">$</span>是否高人均, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-190"><a href="#cb82-190" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-191"><a href="#cb82-191" aria-hidden="true" tabindex="-1"></a><span class="co"># --- 清理4：构造公共管理指标（覆盖率/占比/份额/环比）---</span></span>
+<span id="cb82-192"><a href="#cb82-192" aria-hidden="true" tabindex="-1"></a>city_total <span class="ot">&lt;-</span> <span class="fu">sum</span>(data<span class="sc">$</span><span class="st">`</span><span class="at">发放资金合计（元）</span><span class="st">`</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb82-193"><a href="#cb82-193" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span></span>
+<span id="cb82-194"><a href="#cb82-194" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(地区, 日期) <span class="sc">%&gt;%</span></span>
+<span id="cb82-195"><a href="#cb82-195" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb82-196"><a href="#cb82-196" aria-hidden="true" tabindex="-1"></a>    护理覆盖率 <span class="ot">=</span> <span class="st">`</span><span class="at">领取护理补贴人数（人）</span><span class="st">`</span> <span class="sc">/</span> <span class="st">`</span><span class="at">合计人数（人）</span><span class="st">`</span>,</span>
+<span id="cb82-197"><a href="#cb82-197" aria-hidden="true" tabindex="-1"></a>    生活覆盖率 <span class="ot">=</span> <span class="st">`</span><span class="at">领取生活补贴人数（人）</span><span class="st">`</span> <span class="sc">/</span> <span class="st">`</span><span class="at">合计人数（人）</span><span class="st">`</span>,</span>
+<span id="cb82-198"><a href="#cb82-198" aria-hidden="true" tabindex="-1"></a>    同时领取率 <span class="ot">=</span> <span class="st">`</span><span class="at">同时领取两贴人数（人）</span><span class="st">`</span> <span class="sc">/</span> <span class="st">`</span><span class="at">合计人数（人）</span><span class="st">`</span>,</span>
+<span id="cb82-199"><a href="#cb82-199" aria-hidden="true" tabindex="-1"></a>    重度占比   <span class="ot">=</span> <span class="st">`</span><span class="at">护理补贴对象重度残疾人及重度精神智力残疾人</span><span class="st">`</span> <span class="sc">/</span></span>
+<span id="cb82-200"><a href="#cb82-200" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">领取护理补贴人数（人）</span><span class="st">`</span>,</span>
+<span id="cb82-201"><a href="#cb82-201" aria-hidden="true" tabindex="-1"></a>    资金份额   <span class="ot">=</span> <span class="st">`</span><span class="at">发放资金合计（元）</span><span class="st">`</span> <span class="sc">/</span> city_total</span>
+<span id="cb82-202"><a href="#cb82-202" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb82-203"><a href="#cb82-203" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(地区) <span class="sc">%&gt;%</span></span>
+<span id="cb82-204"><a href="#cb82-204" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(环比增长率 <span class="ot">=</span> (<span class="st">`</span><span class="at">发放资金合计（元）</span><span class="st">`</span> <span class="sc">-</span> <span class="fu">lag</span>(<span class="st">`</span><span class="at">发放资金合计（元）</span><span class="st">`</span>)) <span class="sc">/</span></span>
+<span id="cb82-205"><a href="#cb82-205" aria-hidden="true" tabindex="-1"></a>           <span class="fu">lag</span>(<span class="st">`</span><span class="at">发放资金合计（元）</span><span class="st">`</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb82-206"><a href="#cb82-206" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb82-207"><a href="#cb82-207" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-208"><a href="#cb82-208" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">【清理4·验证】新增指标列：</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-209"><a href="#cb82-209" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(data)</span>
+<span id="cb82-210"><a href="#cb82-210" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-211"><a href="#cb82-211" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb82-212"><a href="#cb82-212" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-213"><a href="#cb82-213" aria-hidden="true" tabindex="-1"></a><span class="fu">## 五、 程序化质量验证</span></span>
+<span id="cb82-214"><a href="#cb82-214" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-217"><a href="#cb82-217" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb82-218"><a href="#cb82-218" aria-hidden="true" tabindex="-1"></a><span class="co"># ========== 5.4 程序化质量验证 ==========</span></span>
+<span id="cb82-219"><a href="#cb82-219" aria-hidden="true" tabindex="-1"></a><span class="co"># 用 stopifnot() 固化核心规则；若报错应查数据</span></span>
+<span id="cb82-220"><a href="#cb82-220" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-221"><a href="#cb82-221" aria-hidden="true" tabindex="-1"></a><span class="fu">stopifnot</span>(</span>
+<span id="cb82-222"><a href="#cb82-222" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 规则1：候选主键 地区+月份 全表唯一（无重复行）</span></span>
+<span id="cb82-223"><a href="#cb82-223" aria-hidden="true" tabindex="-1"></a>  <span class="sc">!</span><span class="fu">anyDuplicated</span>(data[<span class="fu">c</span>(<span class="st">&quot;地区&quot;</span>, <span class="st">&quot;月份&quot;</span>)]),</span>
+<span id="cb82-224"><a href="#cb82-224" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 规则2：每个 地区+月份 组合恰好 1 行（去重未丢失）</span></span>
+<span id="cb82-225"><a href="#cb82-225" aria-hidden="true" tabindex="-1"></a>  <span class="fu">all</span>(dplyr<span class="sc">::</span><span class="fu">count</span>(data, 地区, 月份)<span class="sc">$</span>n <span class="sc">==</span> <span class="dv">1</span>),</span>
+<span id="cb82-226"><a href="#cb82-226" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 规则3：核心计数变量非负</span></span>
+<span id="cb82-227"><a href="#cb82-227" aria-hidden="true" tabindex="-1"></a>  <span class="fu">all</span>(data<span class="sc">$</span><span class="st">`</span><span class="at">合计人数（人）</span><span class="st">`</span> <span class="sc">&gt;=</span> <span class="dv">0</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb82-228"><a href="#cb82-228" aria-hidden="true" tabindex="-1"></a>  <span class="fu">all</span>(data<span class="sc">$</span><span class="st">`</span><span class="at">发放资金合计（元）</span><span class="st">`</span> <span class="sc">&gt;=</span> <span class="dv">0</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb82-229"><a href="#cb82-229" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 规则4：派生比率落在 [0,1]</span></span>
+<span id="cb82-230"><a href="#cb82-230" aria-hidden="true" tabindex="-1"></a>  <span class="fu">all</span>(data<span class="sc">$</span>护理覆盖率 <span class="sc">&gt;=</span> <span class="dv">0</span> <span class="sc">&amp;</span> data<span class="sc">$</span>护理覆盖率 <span class="sc">&lt;=</span> <span class="dv">1</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb82-231"><a href="#cb82-231" aria-hidden="true" tabindex="-1"></a>  <span class="fu">all</span>(data<span class="sc">$</span>生活覆盖率 <span class="sc">&gt;=</span> <span class="dv">0</span> <span class="sc">&amp;</span> data<span class="sc">$</span>生活覆盖率 <span class="sc">&lt;=</span> <span class="dv">1</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb82-232"><a href="#cb82-232" aria-hidden="true" tabindex="-1"></a>  <span class="fu">all</span>(data<span class="sc">$</span>同时领取率 <span class="sc">&gt;=</span> <span class="dv">0</span> <span class="sc">&amp;</span> data<span class="sc">$</span>同时领取率 <span class="sc">&lt;=</span> <span class="dv">1</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb82-233"><a href="#cb82-233" aria-hidden="true" tabindex="-1"></a>  <span class="fu">all</span>(data<span class="sc">$</span>重度占比   <span class="sc">&gt;=</span> <span class="dv">0</span> <span class="sc">&amp;</span> data<span class="sc">$</span>重度占比   <span class="sc">&lt;=</span> <span class="dv">1</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb82-234"><a href="#cb82-234" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 规则5：人均月补贴非负</span></span>
+<span id="cb82-235"><a href="#cb82-235" aria-hidden="true" tabindex="-1"></a>  <span class="fu">all</span>(data<span class="sc">$</span>人均月补贴 <span class="sc">&gt;=</span> <span class="dv">0</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb82-236"><a href="#cb82-236" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 规则6：伪缺失标记数量与审计一致（恰 3 行）</span></span>
+<span id="cb82-237"><a href="#cb82-237" aria-hidden="true" tabindex="-1"></a>  <span class="fu">sum</span>(data<span class="sc">$</span>缺失_支出困难) <span class="sc">==</span> <span class="dv">3</span>,</span>
+<span id="cb82-238"><a href="#cb82-238" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 规则7：月份连续，无缺失月（覆盖起止之间所有月份）</span></span>
+<span id="cb82-239"><a href="#cb82-239" aria-hidden="true" tabindex="-1"></a>  <span class="fu">length</span>(<span class="fu">unique</span>(data<span class="sc">$</span>月份)) <span class="sc">==</span></span>
+<span id="cb82-240"><a href="#cb82-240" aria-hidden="true" tabindex="-1"></a>    <span class="fu">length</span>(<span class="fu">seq</span>(<span class="fu">min</span>(data<span class="sc">$</span>日期), <span class="fu">max</span>(data<span class="sc">$</span>日期), <span class="at">by =</span> <span class="st">&quot;month&quot;</span>))</span>
+<span id="cb82-241"><a href="#cb82-241" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb82-242"><a href="#cb82-242" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-243"><a href="#cb82-243" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;✅ 5.4 程序化验证全部通过：&quot;</span>,</span>
+<span id="cb82-244"><a href="#cb82-244" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;候选主键唯一、计数非负、比率∈[0,1]、缺失标记=3、月份连续。</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb82-245"><a href="#cb82-245" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb82-246"><a href="#cb82-246" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-247"><a href="#cb82-247" aria-hidden="true" tabindex="-1"></a><span class="fu">## 六、清理前后比较</span></span>
+<span id="cb82-248"><a href="#cb82-248" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-249"><a href="#cb82-249" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 指标 <span class="pp">|</span> 清理前 <span class="pp">|</span> 清理后 <span class="pp">|</span> 变化原因 <span class="pp">|</span></span>
+<span id="cb82-250"><a href="#cb82-250" aria-hidden="true" tabindex="-1"></a><span class="pp">|------------------|------------------|------------------|------------------|</span></span>
+<span id="cb82-251"><a href="#cb82-251" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 记录数 <span class="pp">|</span> 690 <span class="pp">|</span> 690 <span class="pp">|</span> 未删除任何记录（仅标记缺失、标记异常、派生指标），行数不变，故不存在因删除导致的选择偏差 <span class="pp">|</span></span>
+<span id="cb82-252"><a href="#cb82-252" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 变量数 <span class="pp">|</span> 21 <span class="pp">|</span> 33 <span class="pp">|</span> 新增 年/月/日期、支出困难数值列、缺失标记、人均月补贴、高人均标记、护理/生活/同时领取率、重度占比、资金份额、环比增长率；删除原字符型&quot;支出型困难家庭残疾人&quot;列 <span class="pp">|</span></span>
+<span id="cb82-253"><a href="#cb82-253" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 重复主键数 <span class="pp">|</span> 0 <span class="pp">|</span> 0 <span class="pp">|</span> 候选主键&quot;地区+月份&quot;本就唯一，清理未引入重复 <span class="pp">|</span></span>
+<span id="cb82-254"><a href="#cb82-254" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 缺失单元格数 <span class="pp">|</span> 0 <span class="pp">|</span> 3 <span class="pp">|</span> 清理前 3 个&quot;-&quot;伪缺失以字符形式隐藏（is.na 为 0）；清理后转为准 NA 并标记于&quot;缺失_支出困难&quot;，缺失被显式化而非新增（环比首月 NA 属结构性滞后，不计入） <span class="pp">|</span></span>
+<span id="cb82-255"><a href="#cb82-255" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 逻辑异常数 <span class="pp">|</span> 4 <span class="pp">|</span> 4 <span class="pp">|</span> 人均月补贴极端高值（<span class="sc">\&gt;</span>3×中位，最高约 3626 元）共 4 行；清理后标记为&quot;是否高人均&quot;，未删除或缩尾，数量不变 <span class="pp">|</span></span>
+<span id="cb82-256"><a href="#cb82-256" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 无法匹配记录数 <span class="pp">|</span> 0 <span class="pp">|</span> 0 <span class="pp">|</span> 单表数据，无多表连接，不存在未匹配键 <span class="pp">|</span></span>
+<span id="cb82-257"><a href="#cb82-257" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-258"><a href="#cb82-258" aria-hidden="true" tabindex="-1"></a><span class="fu">## 七、 可视化结果与解释</span></span>
+<span id="cb82-259"><a href="#cb82-259" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-262"><a href="#cb82-262" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb82-263"><a href="#cb82-263" aria-hidden="true" tabindex="-1"></a><span class="co"># 图1：覆盖规模与人均待遇的月度趋势（双面板）+ 期末数值标签</span></span>
+<span id="cb82-264"><a href="#cb82-264" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb82-265"><a href="#cb82-265" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-266"><a href="#cb82-266" aria-hidden="true" tabindex="-1"></a>trend <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span></span>
+<span id="cb82-267"><a href="#cb82-267" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(日期) <span class="sc">%&gt;%</span></span>
+<span id="cb82-268"><a href="#cb82-268" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb82-269"><a href="#cb82-269" aria-hidden="true" tabindex="-1"></a>    覆盖人数 <span class="ot">=</span> <span class="fu">sum</span>(<span class="st">`</span><span class="at">合计人数（人）</span><span class="st">`</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb82-270"><a href="#cb82-270" aria-hidden="true" tabindex="-1"></a>    人均月补贴 <span class="ot">=</span> <span class="fu">sum</span>(<span class="st">`</span><span class="at">发放资金合计（元）</span><span class="st">`</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>) <span class="sc">/</span></span>
+<span id="cb82-271"><a href="#cb82-271" aria-hidden="true" tabindex="-1"></a>      <span class="fu">sum</span>(<span class="st">`</span><span class="at">合计人数（人）</span><span class="st">`</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb82-272"><a href="#cb82-272" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb82-273"><a href="#cb82-273" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(<span class="fu">c</span>(覆盖人数, 人均月补贴),</span>
+<span id="cb82-274"><a href="#cb82-274" aria-hidden="true" tabindex="-1"></a>                      <span class="at">names_to =</span> <span class="st">&quot;指标&quot;</span>, <span class="at">values_to =</span> <span class="st">&quot;数值&quot;</span>)</span>
+<span id="cb82-275"><a href="#cb82-275" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-276"><a href="#cb82-276" aria-hidden="true" tabindex="-1"></a>trend_end <span class="ot">&lt;-</span> trend <span class="sc">%&gt;%</span> <span class="fu">group_by</span>(指标) <span class="sc">%&gt;%</span> dplyr<span class="sc">::</span><span class="fu">slice_tail</span>(<span class="at">n =</span> <span class="dv">1</span>)</span>
+<span id="cb82-277"><a href="#cb82-277" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-278"><a href="#cb82-278" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(trend, <span class="fu">aes</span>(<span class="at">x =</span> 日期, <span class="at">y =</span> 数值)) <span class="sc">+</span></span>
+<span id="cb82-279"><a href="#cb82-279" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="fl">1.2</span>, <span class="at">color =</span> <span class="st">&quot;#A8D8EA&quot;</span>) <span class="sc">+</span></span>
+<span id="cb82-280"><a href="#cb82-280" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> trend_end, <span class="fu">aes</span>(<span class="at">label =</span> scales<span class="sc">::</span><span class="fu">comma</span>(数值)),</span>
+<span id="cb82-281"><a href="#cb82-281" aria-hidden="true" tabindex="-1"></a>            <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.4</span>, <span class="at">size =</span> <span class="fl">3.5</span>, <span class="at">color =</span> <span class="st">&quot;#5b8fb0&quot;</span>) <span class="sc">+</span></span>
+<span id="cb82-282"><a href="#cb82-282" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> 指标, <span class="at">scales =</span> <span class="st">&quot;free_y&quot;</span>, <span class="at">ncol =</span> <span class="dv">1</span>,</span>
+<span id="cb82-283"><a href="#cb82-283" aria-hidden="true" tabindex="-1"></a>             <span class="at">labeller =</span> <span class="fu">labeller</span>(指标 <span class="ot">=</span> <span class="fu">c</span>(</span>
+<span id="cb82-284"><a href="#cb82-284" aria-hidden="true" tabindex="-1"></a>               <span class="st">&quot;覆盖人数&quot;</span>   <span class="ot">=</span> <span class="st">&quot;覆盖人数（人）&quot;</span>,</span>
+<span id="cb82-285"><a href="#cb82-285" aria-hidden="true" tabindex="-1"></a>               <span class="st">&quot;人均月补贴&quot;</span> <span class="ot">=</span> <span class="st">&quot;人均月补贴（元/人·月）&quot;</span>))) <span class="sc">+</span></span>
+<span id="cb82-286"><a href="#cb82-286" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_date</span>(<span class="at">date_breaks =</span> <span class="st">&quot;1 year&quot;</span>, <span class="at">date_labels =</span> <span class="st">&quot;%Y&quot;</span>) <span class="sc">+</span></span>
+<span id="cb82-287"><a href="#cb82-287" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">expand =</span> <span class="fu">expansion</span>(<span class="at">mult =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.10</span>))) <span class="sc">+</span></span>
+<span id="cb82-288"><a href="#cb82-288" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb82-289"><a href="#cb82-289" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;图1 深圳市残疾人两项补贴覆盖规模与人均待遇的月度趋势&quot;</span>,</span>
+<span id="cb82-290"><a href="#cb82-290" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;时间&quot;</span>,</span>
+<span id="cb82-291"><a href="#cb82-291" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;数值（见各面板单位）&quot;</span>,</span>
+<span id="cb82-292"><a href="#cb82-292" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">&quot;数据来源：深圳市政府数据开放平台·残疾人两项补贴月报表（2021-01—2026-09）&quot;</span></span>
+<span id="cb82-293"><a href="#cb82-293" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb82-294"><a href="#cb82-294" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span>
+<span id="cb82-295"><a href="#cb82-295" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb82-296"><a href="#cb82-296" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-297"><a href="#cb82-297" aria-hidden="true" tabindex="-1"></a>**图1说明（覆盖规模与人均待遇的月度趋势）：**</span>
+<span id="cb82-298"><a href="#cb82-298" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-299"><a href="#cb82-299" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**结果解释**：2021年1月至2026年9月，全市两项补贴月度覆盖人数由约2.85万人持续上升至约5.47万人，六年增长近一倍；同期人均月补贴由约362元温和升至约458元，长期稳定在450—460元区间。表明政策扩面成效显著，但人均待遇提升相对平缓。</span>
+<span id="cb82-300"><a href="#cb82-300" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**公共管理含义**：覆盖规模持续扩张反映深圳残疾人兜底保障网逐步收紧、&quot;应保尽保&quot;推进有力；人均待遇长期低位平稳则说明补贴标准调整审慎、保障水平增长有限，政策重心偏向&quot;扩面&quot;而非&quot;提标&quot;。</span>
+<span id="cb82-301"><a href="#cb82-301" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**不能推出的结论**：不能推出覆盖人数增长源于政策扩面而非残疾人口自然增长（缺少分母）；也不能推出人均待遇在地区间、群体间是否均衡（全市加总掩盖了内部结构）。</span>
+<span id="cb82-302"><a href="#cb82-302" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-305"><a href="#cb82-305" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb82-306"><a href="#cb82-306" aria-hidden="true" tabindex="-1"></a><span class="co"># 图2：三类领取人群全市构成（修坐标轴 + 柱顶人数标签）</span></span>
+<span id="cb82-307"><a href="#cb82-307" aria-hidden="true" tabindex="-1"></a>comp <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span></span>
+<span id="cb82-308"><a href="#cb82-308" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb82-309"><a href="#cb82-309" aria-hidden="true" tabindex="-1"></a>    仅护理 <span class="ot">=</span> <span class="fu">sum</span>(<span class="st">`</span><span class="at">仅领取护理补贴人数（人）</span><span class="st">`</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb82-310"><a href="#cb82-310" aria-hidden="true" tabindex="-1"></a>    仅生活 <span class="ot">=</span> <span class="fu">sum</span>(<span class="st">`</span><span class="at">仅领取生活补贴人数（人）</span><span class="st">`</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb82-311"><a href="#cb82-311" aria-hidden="true" tabindex="-1"></a>    同时两贴 <span class="ot">=</span> <span class="fu">sum</span>(<span class="st">`</span><span class="at">同时领取两贴人数（人）</span><span class="st">`</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb82-312"><a href="#cb82-312" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb82-313"><a href="#cb82-313" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(<span class="fu">everything</span>(), <span class="at">names_to =</span> <span class="st">&quot;类别&quot;</span>, <span class="at">values_to =</span> <span class="st">&quot;人数&quot;</span>)</span>
+<span id="cb82-314"><a href="#cb82-314" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-315"><a href="#cb82-315" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(comp, <span class="fu">aes</span>(<span class="at">x =</span> 类别, <span class="at">y =</span> 人数, <span class="at">fill =</span> 类别)) <span class="sc">+</span></span>
+<span id="cb82-316"><a href="#cb82-316" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb82-317"><a href="#cb82-317" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> scales<span class="sc">::</span><span class="fu">comma</span>(人数)), <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.3</span>, <span class="at">size =</span> <span class="dv">4</span>) <span class="sc">+</span></span>
+<span id="cb82-318"><a href="#cb82-318" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">&quot;#A8D8EA&quot;</span>, <span class="st">&quot;#FCE38A&quot;</span>, <span class="st">&quot;#B5EAD7&quot;</span>)) <span class="sc">+</span></span>
+<span id="cb82-319"><a href="#cb82-319" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span><span class="fu">label_comma</span>(),</span>
+<span id="cb82-320"><a href="#cb82-320" aria-hidden="true" tabindex="-1"></a>                     <span class="at">expand =</span> <span class="fu">expansion</span>(<span class="at">mult =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.12</span>))) <span class="sc">+</span></span>
+<span id="cb82-321"><a href="#cb82-321" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb82-322"><a href="#cb82-322" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;图2 全市残疾人两项补贴领取人群构成&quot;</span>,</span>
+<span id="cb82-323"><a href="#cb82-323" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;领取类别&quot;</span>,</span>
+<span id="cb82-324"><a href="#cb82-324" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;累计领取人数（人）&quot;</span>,</span>
+<span id="cb82-325"><a href="#cb82-325" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">&quot;数据来源：深圳市政府数据开放平台·残疾人两项补贴月报表（全市10区×69月汇总）&quot;</span></span>
+<span id="cb82-326"><a href="#cb82-326" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb82-327"><a href="#cb82-327" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span>
+<span id="cb82-328"><a href="#cb82-328" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-329"><a href="#cb82-329" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb82-330"><a href="#cb82-330" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-331"><a href="#cb82-331" aria-hidden="true" tabindex="-1"></a>**图2说明（三类领取人群全市构成）：**</span>
+<span id="cb82-332"><a href="#cb82-332" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-333"><a href="#cb82-333" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**现象**：在全市跨区跨期汇总中，仅领取护理补贴者约258.5万（占三类构成近95%），而仅领取生活补贴者仅约4.5万、同时领取两贴者约9.4万，规模远小于前者。说明护理补贴覆盖面远超生活补贴，绝大多数领取者只享受护理一项。</span>
+<span id="cb82-334"><a href="#cb82-334" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**公共管理含义**：两类补贴的领取结构高度偏向护理补贴，提示深圳残疾人群体的照护需求突出，而生活补贴的瞄准面较窄；生活补贴保障功能可能被护理补贴部分替代，值得检视其是否存在漏保（与既有研究发现的&quot;生活补贴漏保&quot;相呼应）。</span>
+<span id="cb82-335"><a href="#cb82-335" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**不能推出的结论**：不能推出各类人群的福利需求紧迫度排序（规模大不等于需求更迫切）；也不能推出实际人口覆盖率（缺少残疾人总数作分母）。</span>
+<span id="cb82-336"><a href="#cb82-336" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-339"><a href="#cb82-339" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb82-340"><a href="#cb82-340" aria-hidden="true" tabindex="-1"></a><span class="co"># 图3：各区合计领取人数（修坐标轴 + 柱顶人数标签）</span></span>
+<span id="cb82-341"><a href="#cb82-341" aria-hidden="true" tabindex="-1"></a>dist <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span></span>
+<span id="cb82-342"><a href="#cb82-342" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(地区) <span class="sc">%&gt;%</span></span>
+<span id="cb82-343"><a href="#cb82-343" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(领取人数 <span class="ot">=</span> <span class="fu">sum</span>(<span class="st">`</span><span class="at">合计人数（人）</span><span class="st">`</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb82-344"><a href="#cb82-344" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(领取人数))</span>
+<span id="cb82-345"><a href="#cb82-345" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-346"><a href="#cb82-346" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(dist, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(地区, 领取人数), <span class="at">y =</span> 领取人数, <span class="at">fill =</span> 领取人数)) <span class="sc">+</span></span>
+<span id="cb82-347"><a href="#cb82-347" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb82-348"><a href="#cb82-348" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> scales<span class="sc">::</span><span class="fu">comma</span>(领取人数)), <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.3</span>,</span>
+<span id="cb82-349"><a href="#cb82-349" aria-hidden="true" tabindex="-1"></a>            <span class="at">size =</span> <span class="fl">3.5</span>, <span class="at">color =</span> <span class="st">&quot;#333333&quot;</span>) <span class="sc">+</span></span>
+<span id="cb82-350"><a href="#cb82-350" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_gradient</span>(<span class="at">low =</span> <span class="st">&quot;#A8D8EA&quot;</span>, <span class="at">high =</span> <span class="st">&quot;#FFB7B2&quot;</span>,</span>
+<span id="cb82-351"><a href="#cb82-351" aria-hidden="true" tabindex="-1"></a>                      <span class="at">labels =</span> scales<span class="sc">::</span><span class="fu">label_comma</span>()) <span class="sc">+</span></span>
+<span id="cb82-352"><a href="#cb82-352" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span><span class="fu">label_comma</span>(),</span>
+<span id="cb82-353"><a href="#cb82-353" aria-hidden="true" tabindex="-1"></a>                     <span class="at">expand =</span> <span class="fu">expansion</span>(<span class="at">mult =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.10</span>))) <span class="sc">+</span></span>
+<span id="cb82-354"><a href="#cb82-354" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb82-355"><a href="#cb82-355" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;图3 各区残疾人两项补贴合计领取人数&quot;</span>,</span>
+<span id="cb82-356"><a href="#cb82-356" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;区／功能区&quot;</span>,</span>
+<span id="cb82-357"><a href="#cb82-357" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;累计领取人数（人）&quot;</span>,</span>
+<span id="cb82-358"><a href="#cb82-358" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">&quot;数据来源：深圳市政府数据开放平台·残疾人两项补贴月报表（2021-01—2026-09）&quot;</span></span>
+<span id="cb82-359"><a href="#cb82-359" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb82-360"><a href="#cb82-360" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb82-361"><a href="#cb82-361" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span>
+<span id="cb82-362"><a href="#cb82-362" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb82-363"><a href="#cb82-363" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-364"><a href="#cb82-364" aria-hidden="true" tabindex="-1"></a>**图3说明（各区合计领取人数）：**</span>
+<span id="cb82-365"><a href="#cb82-365" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-366"><a href="#cb82-366" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**结果解释**：各区累计领取人数呈明显阶梯分布，福田区最高（约65.2万），依次为南山、龙岗、罗湖、宝安，最低的大鹏新区仅约4.8万，最高区约为最低区的13.6倍，空间分布高度不均衡。</span>
+<span id="cb82-367"><a href="#cb82-367" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**公共管理含义**：补贴资源的空间分布与各区的残疾人规模、户籍与常住人口结构高度相关，反映出公共服务供给在空间上的不均衡；对大鹏、盐田、坪山等外围区的保障可达性与资源投入，值得在资源配置时重点考量。</span>
+<span id="cb82-368"><a href="#cb82-368" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**不能推出的结论**：不能推出各区残疾人&quot;真实需求量&quot;差异（人数多可能源于人口基数大而非需求更高）；也不能说明资金使用效率或服务质量，本图仅反映领取规模。</span>
+<span id="cb82-369"><a href="#cb82-369" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-370"><a href="#cb82-370" aria-hidden="true" tabindex="-1"></a><span class="fu">## 八、数据局限和后续机器学习适用性</span></span>
+<span id="cb82-371"><a href="#cb82-371" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-372"><a href="#cb82-372" aria-hidden="true" tabindex="-1"></a>**1. 是否存在明确的目标变量？** 原始数据本身不含现成的目标变量，所有字段都是描述性的区-月统计。但它适合由研究者围绕规模与资金自行构造预测目标，例如将未来某区某月的合计领取人数或发放资金合计设为预测对象。因此数据没有内置目标，却具备构造目标的充分条件，并非无目标可用。</span>
+<span id="cb82-373"><a href="#cb82-373" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-374"><a href="#cb82-374" aria-hidden="true" tabindex="-1"></a>**2. 目标变量是连续值还是类别？** 取决于任务定义，二者皆可行。若将下月合计领取人数或下月发放资金合计作为目标，则为连续值，对应回归任务；若将下月是否进入高人均待遇状态、环比是否加速增长等定义为目标，则为类别，对应分类任务。数据本身不限定目标类型，研究者可根据后续机器学习作业的需要选择。</span>
+<span id="cb82-375"><a href="#cb82-375" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-376"><a href="#cb82-376" aria-hidden="true" tabindex="-1"></a>**3. 是否有足够样本和可用特征？** 样本量为 690 行（10 区 × 69 月），属于中等偏小规模，足以支撑轻量模型，但不足以训练深度学习等复杂模型。可用特征包括地区、年月及其派生项、历史人数与资金、各类人群的结构比例、人均月补贴的历史值等，特征维度足够。需要留意的是地区维度仅有 10 个，若对地区做独热编码会占用较多参数，宜配合固定效应或分层处理。</span>
+<span id="cb82-377"><a href="#cb82-377" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-378"><a href="#cb82-378" aria-hidden="true" tabindex="-1"></a>**4. 哪些变量在真实预测时点能够获得？** 预测下月状态时，只能使用截至本月末已知的信息。在真实预测时点可获得的有地区标识、历史累计人数与资金、历史各类人群结构比例、历史人均月补贴、月份与季节性等滞后或静态变量。任何属于被预测月份本身的数据都属于目标而非特征，不能在训练时使用。</span>
+<span id="cb82-379"><a href="#cb82-379" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-380"><a href="#cb82-380" aria-hidden="true" tabindex="-1"></a>**5. 是否存在由结果直接生成的泄漏变量？** 存在需要警惕的泄漏风险。人均月补贴由发放资金除以合计人数得到，若以资金或人数为目标，该变量本质上由目标推导而来，直接放入特征会构成泄漏。各分解列（仅护理、仅生活、同时两贴等）与合计列高度线性相关，若以合计人数为目标又将这些分解列作为特征，近似于把答案喂给模型，同样属于泄漏。此外环比增长率依赖滞后项，需确保滞后步长不超过预测步长，避免用到未来信息。</span>
+<span id="cb82-381"><a href="#cb82-381" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-382"><a href="#cb82-382" aria-hidden="true" tabindex="-1"></a>**6. 应采用随机划分、时间划分还是分组划分？** 应采用时间划分而非随机划分。由于数据具有明确的时间顺序，随机切分会使未来月份的信息泄漏进训练集，导致评估结果虚高。正确做法是以靠前若干期（如剔除最后 12 个月）为训练集，以最末 12 个月为测试集，模拟用历史预测未来的真实场景。分组划分（如按地区留一法）在此不如时间划分自然，因为本数据的核心预测目标是面向时间而非跨地区泛化。</span>
+<span id="cb82-383"><a href="#cb82-383" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-384"><a href="#cb82-384" aria-hidden="true" tabindex="-1"></a>**总结** 综合上述六点，这份区-月面板数据适合作为后续监督学习的输入，但适用面较窄，仅适合时间序列预测类任务，并不适合直接用于因果推断、空间分析或文本建模。若用于监督学习，需自行构造连续或类别目标，在特征设计中规避由目标直接生成的共线与泄漏变量，并严格采用时间划分而非随机划分，方能得出可信结论。若后续机器学习作业希望开展因果或文本类分析，则本数据不适合直接监督学习。</span>
+<span id="cb82-385"><a href="#cb82-385" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-386"><a href="#cb82-386" aria-hidden="true" tabindex="-1"></a><span class="fu">## 九、AI辅助使用说明</span></span>
+<span id="cb82-387"><a href="#cb82-387" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-388"><a href="#cb82-388" aria-hidden="true" tabindex="-1"></a>本次作业中，我使用了生成式AI对话助手（chatGPT、workbuddy、deepseek等）作为编程与分析的辅助工具。根据课程关于AI辅助使用的规则，未上传任何含个人身份或敏感行政信息的数据（本作业所用为深圳市政府数据开放平台的区-月聚合统计，不含个人层面信息）。</span>
+<span id="cb82-389"><a href="#cb82-389" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-390"><a href="#cb82-390" aria-hidden="true" tabindex="-1"></a>**AI辅助的环节：**</span>
+<span id="cb82-391"><a href="#cb82-391" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-392"><a href="#cb82-392" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>解释运行过程中的错误信息，帮助我定位如函数未加载、代码块嵌套等具体问题；</span>
+<span id="cb82-393"><a href="#cb82-393" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-394"><a href="#cb82-394" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>针对数据审计与清理提出建议性代码，包括变量类型与日期转换、缺失标记、异常值标记及公共管理指标的构造；</span>
+<span id="cb82-395"><a href="#cb82-395" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-396"><a href="#cb82-396" aria-hidden="true" tabindex="-1"></a><span class="ss">3.  </span>帮助我理解相关函数（如 glimpse、pivot_longer、facet_wrap 等）的参数含义与适用场景；</span>
+<span id="cb82-397"><a href="#cb82-397" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-398"><a href="#cb82-398" aria-hidden="true" tabindex="-1"></a><span class="ss">4.  </span>协助检查图表的坐标轴标注、单位与数据来源说明是否规范；</span>
+<span id="cb82-399"><a href="#cb82-399" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-400"><a href="#cb82-400" aria-hidden="true" tabindex="-1"></a><span class="ss">5.  </span>对部分代码注释与文字表述提出改进建议，使报告表达更为清晰。</span>
+</code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal><i class="bi"></i></button></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 
 
